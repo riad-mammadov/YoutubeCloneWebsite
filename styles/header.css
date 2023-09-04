@@ -7,19 +7,88 @@
 }
 
 .left{
-    background-color: aqua;
-    width: 150px;
+    
+    display: flex;
+    align-items: center;
 }
 
 .center{
-    background-color: lightcoral;
    flex: 1;
    margin-left: 70px;
    margin-right: 35px;
    max-width: 500px;
+   align-items: center;
+   display: flex;
+   flex-direction: row;
 }
 
 .right{
     background-color: lightgreen;
     width: 200px;
+}
+
+.hamburger-menu{
+    height: 25px;
+    margin-right: 20px;
+    margin-left: 24px;
+
+}
+
+.youtube-logo{
+    height: 20px;
+}
+
+.search{
+    height: 40px;
+    width: 66px;
+    background-color: rgb(240,240,240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    margin-left: -1px;
+    margin-right: 10px;
+
+    
+}
+
+.searchbar{
+    flex: 1;
+    height: 36px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0, 0.05)
+}
+
+.searchbar::placeholder{
+    opacity: 40;
+    font-family: Roboto, Arial;
+    font-size: 14px;
+    padding-left: 10px;
+    
+    
+}
+
+
+
+.voice-search{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(248,248,248);
+}
+
+.voiceicon{
+    height: 24px;
+    margin-top: 3px;
+
+
+}
+
+.searchicon{
+    height: 25px;
+    margin-top: 4px;
 }
