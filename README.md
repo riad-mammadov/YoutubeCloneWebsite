@@ -1,3 +1,3 @@
 # Test
 
-This repository recreates a clone of Youtube to familiarise myself with HTML & CSS.
+I created a clone of Youtube's home page in order to gain some practise with HTML & CSS 
