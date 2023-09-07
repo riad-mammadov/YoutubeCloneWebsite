@@ -15,7 +15,7 @@
 .center{
    flex: 1;
    margin-left: 70px;
-   margin-right: 35px;
+   margin-right: 10px;
    max-width: 500px;
    align-items: center;
    display: flex;
@@ -25,6 +25,12 @@
 .right{
     background-color: lightgreen;
     width: 200px;
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    
+   
 }
 
 .hamburger-menu{
@@ -40,7 +46,7 @@
 
 .search{
     height: 40px;
-    width: 66px;
+    width: 55px;
     background-color: rgb(240,240,240);
     border-width: 1px;
     border-style: solid;
@@ -91,4 +97,26 @@
 .searchicon{
     height: 25px;
     margin-top: 4px;
+}
+
+.upload-icon{
+    width: 25px;
+}
+
+.apps-icon{
+    width: 25px;
+    margin-right: 20px;
+    margin-left: 24px;
+
+}
+
+.notification-icon{
+    width: 25px;
+}
+
+.profile-pic{
+   height: 35px;
+   margin-left: 20px;
+   border-radius: 35px;
+   
 }
