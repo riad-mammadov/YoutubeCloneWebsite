@@ -1,0 +1,43 @@
+.sidebar{
+    position: fixed;
+    top: 58px;
+    left: 0px;
+    bottom: 0px;
+    width: 72px;
+    background-color: white;
+}
+
+.home{
+    position: absolute;
+    width: 30px;
+    left: 10;
+    top: 10;
+}
+
+.apps{
+    position: absolute;
+    width: 30px;
+    left: 10;
+    top: 30;
+}
+
+.subs{
+    position: absolute;
+    width: 30px;
+    left: 10;
+    top: 50;
+}
+
+.music{
+    position: absolute;
+    width: 30px;
+    left: 10;
+    top: 70;
+}
+
+.library{
+    position: absolute;
+    width: 30px;
+    left: 10;
+    top: 90;
+}

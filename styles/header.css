@@ -12,6 +12,7 @@
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(227, 224, 224);
+    z-index: 1;
     
 }
 
