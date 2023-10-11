@@ -7,37 +7,25 @@
     background-color: white;
 }
 
-.home{
-    position: absolute;
-    width: 30px;
-    left: 10;
-    top: 10;
+.sidebarlink{
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 
-.apps{
-    position: absolute;
-    width: 30px;
-    left: 10;
-    top: 30;
+.sidebarlink:hover{
+    background-color: lightgray;
 }
 
-.subs{
-    position: absolute;
-    width: 30px;
-    left: 10;
-    top: 50;
+.sidebarlink img {
+    height: 25px;
+    padding-bottom: 5px;
 }
 
-.music{
-    position: absolute;
-    width: 30px;
-    left: 10;
-    top: 70;
-}
-
-.library{
-    position: absolute;
-    width: 30px;
-    left: 10;
-    top: 90;
+.sidebarlink div{
+    font-family: Roboto,arial;
+    font-size: 10px;
 }
